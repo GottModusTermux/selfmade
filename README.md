@@ -6,8 +6,8 @@ eine installertion leichter machen
 
 > supersudo.sh
 
-# ein script was automatisch sudo und als kleinen zusatz
-# youtube-dl mit downloadet und installiert
+- ein script was automatisch sudo und als kleinen zusatz
+  youtube-dl mit downloadet und installiert
 
 `dieses tut soll jedem helfen, der sein termux re-installieren musste
 - termux sollte rein und grad frisch installiert worden sein
