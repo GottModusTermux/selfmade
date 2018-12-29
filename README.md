@@ -1,8 +1,8 @@
 # selfmade
 selbst gemacht!!
 
-~eine kleine ansammlung von scripten die meist,
-~eine installertion leichter machen
+eine kleine ansammlung von scripten die meist,
+%eine installertion leichter machen
 
 > supersudo.sh
 
