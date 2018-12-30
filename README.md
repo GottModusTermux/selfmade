@@ -5,8 +5,9 @@ eine kleine ansammlung von scripten die meist,
 eine installertion leichter machen
 
 > supersudo.sh
+- chmod +x supersudo.sh
 
-- ein script was automatisch sudo und als kleinen zusatz
++ ein script was automatisch sudo und als kleinen zusatz
   youtube-dl mit downloadet und installiert
 
 _dieses tut soll jedem helfen, der sein termux re-installieren musste_
