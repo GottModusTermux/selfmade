@@ -28,7 +28,7 @@ termux-setup-storage
 
 sleep 5
 
-sleep 5
+sleep 3
 
 printf "$yellow"
 
@@ -71,6 +71,8 @@ apt install git -y
 pkg install ncurses-utils
 
 pkg install nano -y
+
+cd $HOME
 
 git clone https://github.com/GottModusTermux/G0D.git
 
@@ -118,13 +120,11 @@ echo "GEBEN !!"
 
 printf "$reset"
 
-sleep 5
-
-sleep 5
+sleep 3
 
 sudo
 
-sleep 7
+sleep 12
 
 echo "alles gut ? okaay weiter gehts ;D"
 
@@ -182,7 +182,9 @@ sleep 3
 
 echo "und jetzt bin ich auch schon weg.."
 
-sleep 2
+sleep 3
+
+clear
 
 echo "besucht meine github seite !"
 
