@@ -28,6 +28,8 @@ termux-setup-storage
 
 sleep 5
 
+sleep 5
+
 printf "$yellow"
 
 echo "sudo wird installiert"
@@ -115,6 +117,8 @@ echo "ROOT-RECHTE"
 echo "GEBEN !!"
 
 printf "$reset"
+
+sleep 5
 
 sleep 5
 
