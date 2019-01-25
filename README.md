@@ -38,4 +38,6 @@ cd metasploit-framework
 
 rm Gemfile.lock
 
+bundle install
+
 ./msfconsole
