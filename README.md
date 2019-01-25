@@ -18,7 +18,7 @@ die anfragen kommen wärend das supersudo.sh script durchläuft:
 - root rechte bestätigen
 
 
-# METASPLOIT 2019 for Termux
+# METASPLOIT v5.0 2019 for Termux
 
 mv metasploit.sh $HOME
 
@@ -30,6 +30,12 @@ chmod +x metasploit.sh
 
 ---start MetaSploi---
 
+cd
+
 ./postgresql_ctl.sh restart
+
+cd metasploit-framework
+
+rm Gemfile.lock
 
 ./msfconsole
