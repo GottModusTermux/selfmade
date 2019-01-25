@@ -17,3 +17,19 @@ die anfragen kommen wärend das supersudo.sh script durchläuft:
 - zugriff von termux auf deinen speicher zulassen &
 - root rechte bestätigen
 
+
+# METASPLOIT 2019 for Termux
+
+mv metasploit.sh $HOME
+
+cd
+
+chmod +x metasploit.sh
+
+./metasploit.sh
+
+---start MetaSploi---
+
+./postgresql_ctl.sh restart
+
+./msfconsole
