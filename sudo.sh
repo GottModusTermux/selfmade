@@ -10,7 +10,7 @@ blue='\033[1;34m'
 
 reset='\033[0m'
 
-apt-get update
+apt-get update -y
 
 apt-get upgrade -y
 
@@ -74,6 +74,8 @@ pkg install tsu -y
 
 pkg install fish -y
 
+pip2 install --upgrade pip
+
 cd $HOME
 
 git clone https://github.com/GottModusTermux/G0D.git
@@ -126,5 +128,5 @@ sleep 3
 
 sudo
 
-sleep 12
+sleep 8
 
