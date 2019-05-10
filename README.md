@@ -40,3 +40,26 @@ rm Gemfile.lock
 bundle install
 
 ./msfconsole
+
+
+
+# Termux 4kYT
+
+ storage-setup-termux
+
+ pkg install -y python python2 curl wget 
+ 
+ pip install youtube-dl
+
+ mkdir ~/storage/shared/youtube
+
+ mkdir -p ~/.config/youtube-dl
+ 
+ pkg install -y ffmpeg
+
+ mkdir ~/bin
+
+ wget https://pastebin.com/DVVjQMfZ -O ~/bin/termux-url-opener
+
+fertig
+
