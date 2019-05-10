@@ -61,6 +61,8 @@ bundle install
 
  wget https://pastebin.com/DVVjQMfZ -O ~/bin/termux-url-opener
 
+ dos2unix ~/bin/termux-url-opener
+
 fertig
 
 -"DVVjQMfZ.txt" ist die Backup datei von pastebin.com
